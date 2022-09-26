@@ -37,7 +37,7 @@ class rev
 		}
 
 		
-		System.out.println("Alphabetical order:");
+		System.out.println("Reverseorder:");
                 System.out.println(arr);
 	}
 }
