@@ -6,7 +6,7 @@ public class GCD
     static int gcd(int x, int y)
     {
         int r=0, a, b;
-        a = (x > y) ? x : y; // a is greater number
+        a = (x > y) ? x : y; 
         b = (x < y) ? x : y; 
  
         r = b;
@@ -22,7 +22,7 @@ public class GCD
     static int lcm(int x, int y)
     {
         int a;
-        a = (x > y) ? x : y; // a is greater number
+        a = (x > y) ? x : y; 
         while(true)
         {
             if(a % x == 0 && a % y == 0)
